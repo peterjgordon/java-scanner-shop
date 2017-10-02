@@ -17,7 +17,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String[] items = {"Shed", "Handbag", "Tractor"};
 
-        System.out.println(" Welcome to TheDump Ltd\n");
+        System.out.println("Welcome to TheDump Ltd\n");
         System.out.println("====== Catalogue ======");
         for (int i = 0; i < items.length; i++) {
             System.out.println((i + 1) + ". " + items[i]);
