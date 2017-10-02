@@ -27,7 +27,7 @@ public class Main {
         System.out.println("\nHow many people are you ordering for?");
         System.out.println("There is a maximum of 5 per order.");
         int quantity = Integer.MAX_VALUE;
-        while (quantity > 5) {
+        while (quantity < 1 || quantity > 5) {
             quantity = obtainInt(scanner);
         }
 
