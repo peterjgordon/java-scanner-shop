@@ -19,7 +19,9 @@ public class Main {
 
         System.out.println(" Welcome to TheDump Ltd\n");
         System.out.println("====== Catalogue ======");
-        for (int i = 0; i < items.length; i++) System.out.println((i + 1) + ". " + items[i]);
+        for (int i = 0; i < items.length; i++) {
+            System.out.println((i + 1) + ". " + items[i]);
+        }
         System.out.println("=======================\n");
         System.out.print("Select an item no: ");
         int itemNo = obtainInt(scanner)-1; // -1 to account for zero-based index
